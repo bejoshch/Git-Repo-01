@@ -4,6 +4,8 @@ import java.awt.*;
 import javax.swing.*;
 
 
+
+
 public class BasicFrame extends JFrame
 {
 	private final static int	WINDOW_WIDTH = 600,
@@ -19,12 +21,8 @@ public class BasicFrame extends JFrame
 		//c.setLayout(new BorderLayout());
 		
 		myPanel = new NonroutineServcesPanel();
-		
-		
-		
-		
-		
-		
+		// less space and this comment were the changes.
+
 		setTitle("basic Frame");
 		setSize(WINDOW_WIDTH, WINDOW_HEIGHT);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

@@ -5,6 +5,7 @@ import javax.swing.*;    			// Required for Swing classes
 import javax.swing.SwingConstants;
 import java.text.DecimalFormat;		// Required for decimal format class
 
+
 /**
  * JoesAutomotive : A vehicle maintenance and repair cost calculator for Joe's Automotive.<br>
  *
